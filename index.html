@@ -1,0 +1,428 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=0" />
+        <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+        
+        <!-- abre e fecha o menu hamburguer -->
+        <script type="text/javascript">
+            window.onload = function() {
+                document.querySelector(".menuMobile").addEvenListener("click", function() {
+                    if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex'
+                    }
+                });
+            };
+        </script>
+
+        <title>MediCenter</title>
+    </head>
+
+    <body>
+
+        <!-- menu -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img src="assets/images/logo.png" /></a>
+                </div>
+                <div class="menu">
+                    <nav>
+
+                        <!-- menu para celular -->
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <!-- fim do menu para celular -->
+
+                        <ul>
+                            <li class="active"><a href="">HOME</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">PAGES</a></li>
+                            <li><a href="">DEPARTMENTS</a></li>
+                            <li><a href="">TIMETABLE</a></li>
+                            <li><a href="">GALLERY</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- fim menu -->
+
+        <!-- área do banner -->
+        <section id="banner">
+            <div class="container column">
+
+                <div class="banner_headline">
+                    <h1>Top notch experience</h1>
+                    <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+                </div>
+
+                <div class="banner_options">
+
+                    <div class="banner1">
+                        <div class="banner_title">Emergency Case</div>
+                        <div class="banner_desc">If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</div>
+                        <a href="">Read more</a>
+                    </div>
+
+                    <div class="banner2">
+                        <div class="banner_title">Doctors Timetable</div>
+                        <div class="banner_desc">Here at medicenter we have individual doctor's lists. Click read more below to see services and current timetable for our doctors.</div>
+                        <a href="">Read more</a>
+                    </div>
+
+                    <div class="banner3">
+                        <div class="banner_title">Opening Hours</div>
+                        <div class="banner_desc">
+                            <ul id="list1">
+                                <li id="list1_1">
+                                    <div class="day">Monday - Friday</div>
+                                    <div class="hour">8.00 - 17.00</div>
+                                </li>
+                                <li id="list1_1">
+                                    <div class="day">Saturday</div>
+                                    <div class="hour">9.30 - 17.30</div>
+                                </li>
+                                <li id="list1_1">
+                                    <div class="day">Sunday</div>
+                                    <div class="hour">9.30 - 15.00</div>  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fim da área do banner -->
+
+        <!-- conteúdo -->
+        <section id="geral">
+            <div class="container">
+
+                <!-- área de notícias -->
+                <section>
+                    <div class="widget">
+
+                        <div class="widget_title">
+                            <div class="widget_title_text">Latest News</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+                        <!-- área de posts de destaque -->
+                        <div class="widget_body flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">24 DEC 21</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/image_03.jpg" />
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distracted
+                                        by the readable content of a page when looking at its layout.
+                                        The point of using Lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letters, as opposed to using 'Content
+                                        here, content here', making it look like readable English.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">24 DEC 21</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/image_03.jpg" />
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distracted
+                                        by the readable content of a page when looking at its layout.
+                                        The point of using Lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letters, as opposed to using 'Content
+                                        here, content here', making it look like readable English.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">24 DEC 21</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/image_03.jpg" />
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distracted
+                                        by the readable content of a page when looking at its layout.
+                                        The point of using Lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letters, as opposed to using 'Content
+                                        here, content here', making it look like readable English.
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article>
+                                <a href="">
+                                    <div class="news_data">
+                                        <div class="news_posted_at">24 DEC 21</div>
+                                        <div class="news_comments">2</div>
+                                    </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/images/image_03.jpg" />
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amat velum
+                                    </div>
+                                    <div class="news_resume">
+                                        It is a long established fact that a reader will be distracted
+                                        by the readable content of a page when looking at its layout.
+                                        The point of using Lorem Ipsum is that it has a more-or-less
+                                        normal distribution of letters, as opposed to using 'Content
+                                        here, content here', making it look like readable English.
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                        <!-- fim da área de posts de destaque -->
+
+                    </div>
+                </section>
+                <!-- fim da área de notícias -->
+                
+                <!-- área lateral -->
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Departments</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="boxes">
+                                <div class="box">Primary Health Care</div>
+                                <div class="box">Pediatric Clinic</div>
+                                <div class="box">Outpatient Surgery</div>
+                                <div class="box">Gynaecological Clinic</div>
+                                <div class="box">Cardiac Clinic</div>
+                                <div class="box">Laryngological Clinic</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Make An Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            <div class="appointment_text">
+                                At MediCenter we intend to create medicines that improve both the quality and duration of patient lives.
+                            </div>
+                            <div class="appointment_desc">
+                                <ul id="list2">
+                                    <li id="list2_1">
+                                        <div class="contact1">
+                                            <img src="assets/images/phone_icon_48251.png" alt="" width="20" />
+                                        </div>
+                                        <div class="text1">by phone:</div>
+                                        <div class="phone_number">1-800-643-4300</div>
+                                    </li>
+                                    <li id="list2_1">
+                                        <div class="contact1">
+                                            <img src="assets/images/email_socialnetwork_20049.png" alt="" width="20" />
+                                        </div>
+                                        <div class="text1">by e-mail: </div>
+                                        <div class="mail">
+                                            <a href="mailto:contact@medicenter.com">medicenter@mail.com</a>
+                                        </div>
+                                    </li>
+                                    <li id="list2_1">
+                                        <div class="contact1">
+                                            <img src="assets/images/wondicon-ui-free-website_111210.png" alt="" width="20" />
+                                        </div>
+                                        <div class="test1">or <a href="">in the form</a> on our contact page.</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- fim da área lateral -->
+
+            </div>
+        </section>
+        <!-- fim conteúdo-->
+
+        <!-- rodapé -->
+        <footer>
+            <div class="container flexColumn">
+
+                <!-- footer menu -->
+                <div class="footer_menu">
+                    <div class="fm_1">
+                        <a href="">
+                            <div class="footer_title">Health Insurance</div>
+                            <div class="footer_desc">Here in medicenter we have individual &#65515;</div>
+                        </a>
+                    </div>
+                    <div class="fm_2">
+                        <a href="">
+                            <div class="footer_title">Medical Records</div>
+                            <div class="footer_desc">Here in medicenter we have individual &#65515;</div>
+                        </a>
+                    </div>
+                    <div class="fm_3">
+                        <a href="">
+                            <div class="footer_title">Online Bill</div>
+                            <div class="footer_desc">Here in medicenter we have individual &#65515;</div>
+                        </a>
+                    </div>
+                </div>
+                <!-- fim do footer menu -->
+
+                <!-- footer area -->
+                <div class="footer_area">
+
+                    <!-- primeira coluna de itens do rodapé -->
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Medicenter Clinic</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                <article>
+                                    <div class="medi_info_text">
+                                        Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual
+                                    </div>
+                                    <div class="medi_info_data">
+                                        <ul id="list3">
+                                            <li id="list3_1">
+                                                <div class="info_local">Medicenter Clinic</div>
+                                                <div class="info_adress"></div>
+                                            </li>
+                                            <li id="list3_1">
+                                                <div class="info_local">33 Farlane Street</div>
+                                                <div class="info_adress">+123 655 655</div>
+                                            </li>
+                                            <li id="list3_1">
+                                                <div class="info_local">Keilor East</div>
+                                                <div class="info_adress">+123 755 755</div>
+                                            </li>
+                                            <li id="list3_1">
+                                                <div class="info_local">VIC 3033, Australia</div>
+                                                <div class="info_adress"><a href="mailto:contact@medicenter.com">medicenter@mail.com</a></div>  
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="medi_info_social">
+                                        <a href="https://www.facebook.com/"><img src="assets/images/facebook.png" alt=""></a>
+                                        <a href="https://twitter.com/tweeter"><img src="assets/images/twitter.png" alt=""></a>
+                                        <a href="https://www.google.com/"><img src="assets/images/googleplus.png" alt=""></a>
+                                        <a href="mailto:contact@medicenter.com"><img src="assets/images/mail.png" alt=""></a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim da primeira coluna de itens do rodapé -->
+
+                    <!-- segunda coluna de itens do rodapé -->
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                <ul id="latest_posts">
+                                    <li>
+                                        <article>
+                                            <div class="medi_info_text2">Many doctors use wrong test to diagnose kids food allergies.</div>
+                                            <div class="medi_info_data2">6 months ago</div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <div class="medi_info_text2">Rising cost of diabetes care concerns patients and doctors</div>
+                                            <div class="medi_info_data2">10 months ago</div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <div class="medi_info_text2">Can breakfast help keep us thin? Nutrition science is tricky</div>
+                                            <div class="medi_info_data2">about a year ago</div>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim da segunda coluna de itens do rodapé -->
+
+                    <!-- terceira coluna de itens do rodapé -->
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                            </div>
+                            <div class="widget_body flex">
+                                <ul id="latest_tweets">
+                                    <li>
+                                        <article>
+                                            <div class="medi_info_text3">We proudly present SwimAcademy WordPress Theme <a href="">t.co/7bomogbu6s</a></div>
+                                            <div class="medi_info_data3">11 days ago</div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>                                        
+                                            <div class="medi_info_text3">Dedicated to swimming schools and trainers… <a href="">t.co/bFqiw4AY6w</a></div>
+                                            <div class="medi_info_data3">8 months ago</div>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>                                    
+                                            <div class="medi_info_text3">We've released new version (v6.8) of our #Timetable #Responsive #Booking #Schedule #WP Plugin. Please check at… <a href="">t.co/hdxFfHD5NK</a></div>
+                                            <div class="medi_info_data3">6 years ago</div>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fim da terceira coluna de itens do rodapé -->
+
+                </div>
+                <!-- fim footer area -->
+
+                <!-- footer copyright -->
+                <div class="footer_copy">
+                    Reproduzido por Eliezer Ladeira - 2021. Material desenvolvido para estudo de acordo com aula prática da B7Web. Clone do template <a href="https://themeforest.net/item/medicenter-responsive-medical-health-template/4000598?gclid=Cj0KCQiA_JWOBhDRARIsANymNOYvv8fZVTbf3uzNWbayFx_AO68n26qTfOuE8YkiwvFytKpvVE5F_ZwaAvr4EALw_wcB">Medicenter</a>.
+                </div>
+            </div>
+        </footer>
+        <!-- fim do rodapé -->
+
+    </body>
+</html>
